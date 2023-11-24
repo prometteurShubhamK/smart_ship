@@ -1,0 +1,29 @@
+name: smart_ship
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  entry: ^0.0.6
+  google_fonts: ^4.0.0
+  sidebarx: ^0.16.2
+  flutter: 
+    sdk: flutter
+  responsive_builder: ^0.7.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
